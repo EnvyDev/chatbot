@@ -1,8 +1,7 @@
 //Premade includes
 #include <iostream>
 #include <stdlib.h>
-#include <string.h>
-#include <string.h>
+#include <string>
 //Includes that I made
 #include "includes/vars.h"
 #include "includes/input.h"
@@ -15,7 +14,10 @@ int main()
 {
 	checks[0].question = "hello";
 	checks[0].answer = "Correct 1";
+	checks[0].totalSim = 1;
+	checks[0].simularQuestions[0] = "Correct 2";
 	checks[1].question = "where_is_the_united_states";
+	checks[1].totalSim = 1;
 	checks[1].simularQuestions[0] = "where_is_the_us";
 	checks[1].answer = "In North America";
 	while (true) //Because I dont want it to end
