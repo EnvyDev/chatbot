@@ -23,7 +23,7 @@ const int listSize = 2; //The size of the list below
 
 //Static vars
 static string wordX = "false"; // Single word to check
-static string WordList[listSize] = { "Swear" }; //Words that arent allowed
+static string WordList[listSize] = { "swear" }; //Words that arent allowed
 
 //classes and structs defined
 static int totalQuest = 2;
