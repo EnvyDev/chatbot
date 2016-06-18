@@ -9,8 +9,9 @@ struct Check
 {
 	//questions
 	string question; //Primary question
-	string simularQuestions[10]; //Secondary
+	string simalarQuestions[10]; //Secondary
 	//answer
+	int totalSim;
 	string answer;
 	//ratings
 	float primaryAnswerS;
