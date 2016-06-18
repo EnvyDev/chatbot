@@ -35,6 +35,7 @@ class FindQuestion
 	{
 		checks[totalQuest].question = question;
 		checks[totalQuest].answer = answer1;
+		checks[totalQuest].totalSim = 0;
 		totalQuest++;
 	}
 };

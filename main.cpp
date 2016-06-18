@@ -39,12 +39,13 @@ int main()
 					cout << "-Valid Input-\n";
 					cout << "Qustion number " << FQ.QNumb(x) << ": ";
 				}
-				//cout << checks[FQ.QNumb(x)].answer << "\n";
+				cout << checks[FQ.QNumb(x)].answer << "\n";
 			} else
 			{
 				cout << "No answer for this question\n";
 				cout << "\nWould you like to answer the question (Y/n)? ";
 				char ans = 'n';
+				cin >> ans;
 				if (ans == 'Y')
 				{
 					string answer1, question1;
