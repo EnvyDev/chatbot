@@ -15,10 +15,10 @@ int main()
 	checks[0].question = "hello";
 	checks[0].answer = "Correct 1";
 	checks[0].totalSim = 1;
-	checks[0].simularQuestions[0] = "Correct 2";
+	checks[0].simalarQuestions[0] = "Correct 2";
 	checks[1].question = "where_is_the_united_states";
 	checks[1].totalSim = 1;
-	checks[1].simularQuestions[0] = "where_is_the_us";
+	checks[1].simalarQuestions[0] = "where_is_the_us";
 	checks[1].answer = "In North America";
 	while (true) //Because I dont want it to end
 	{
@@ -36,7 +36,7 @@ int main()
 					cout << "-Valid Input-\n";
 					cout << "Qustion number " << FQ.QNum(x) << ": ";
 				}
-				cout << checks[FQ.QNum(x)].answer << endl;
+				cout << checks[FQ.QNum(x)].answer << "\n";
 			} else
 			{
 				cout << "No answer for this question\n";
