@@ -17,15 +17,17 @@ class FindQuestion
 			if (question == checks[x].question)
 			{
 				return x;
+				break;
 			}
 		}
 		for(int x = 0; x<=totalQuest-1; x++)
 		{
-			for (int y = 0; y<=10; y++)
+			for (int y = 0; y<=checks[x].totalSim -1; y++)
 			{
-				if (question == checks[x].simularQuestions[y])
+				if (question == checks[x].simalarQuestions[y])
 				{
 					return x;
+					break;
 				}
 			}
 			
