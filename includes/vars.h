@@ -7,6 +7,7 @@ using namespace std;
 //Data Structs
 struct Check
 {
+	public:
 	//questions
 	string question; //Primary question
 	string simalarQuestions[10]; //Secondary

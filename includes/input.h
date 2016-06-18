@@ -11,14 +11,14 @@ public:
 		std::transform(phrase.begin(), phrase.end(), phrase.begin(), to_lower());
 
 //		phrase = tolower(phrase);
-		if (phrase == "")
+		if (phrase == " ")
 		{
 			return false;
-		}
+		}/*
 		if (phrase == wordX)
 		{
 			return false;
-		}
+		}*/
 		if (onList(phrase))
 		{
 			return false;
@@ -27,7 +27,7 @@ public:
 	}
 	bool onList(string phrase)
 	{
-		for (int x = 0; x <= listSize; x++)
+		for (int x = 0; x <= listSize -1; x++)
 		{
 			if (phrase == WordList[x])
 			{
