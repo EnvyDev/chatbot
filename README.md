@@ -1,6 +1,4 @@
 # chatbot
-
-
 A chatbot that will help with work. starting with homework and other questions and then moving on to more advanced things.
 
 
